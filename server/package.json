@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "Express server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashu Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "cors": "2.8.4",
+    "express": "4.16.3",
+    "nodemon": "1.18.3",
+    "pg": "7.4.3",
+    "redis": "2.8.0"
+  }
+}
